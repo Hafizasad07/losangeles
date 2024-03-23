@@ -220,3 +220,41 @@
 .owl-dots button.owl-dot:focus {
     outline: none;
 }
+
+@media screen and (max-width: 767px) {
+
+    .text-3a4c62,
+    .text-4f4f4c{
+        font-size: 40px;
+    }
+
+    .section6,
+    .section1 {
+        min-height: 50vh;
+        background-size: 100% 100%;
+    }
+
+    .section3{
+        background-size: 100% 100%;
+    }
+
+    .slider-bg {
+        margin-top: 50px;
+    }
+
+    .slider-bg{
+        height: 117px;
+    }
+
+    .section4-maindiv{
+        flex-wrap: wrap;
+    }
+
+    .header-section{
+        flex-wrap: wrap;
+    }
+
+    .copyright{
+        padding-top: 10px;
+    }
+}
