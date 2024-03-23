@@ -228,7 +228,11 @@
         font-size: 40px;
     }
 
-    .section6,
+    .section6{
+        min-height: 65vh;
+        background-size: 100% 100%;
+    }
+
     .section1 {
         min-height: 50vh;
         background-size: 100% 100%;
@@ -256,5 +260,9 @@
 
     .copyright{
         padding-top: 10px;
+    }
+
+    .flex-div{
+        margin-top: 30px;
     }
 }
